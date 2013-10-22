@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.antelope.ci.bus.test</groupId>
+	<artifactId>common</artifactId>
+	<version>0.1.0</version>
+	<packaging>pom</packaging>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.felix</groupId>
+			<artifactId>main</artifactId>
+			<version>4.2.1</version>
+			<scope>system</scope>
+			<systemPath>d:/data/git/@Antelope.CI/com.antelope.ci.bus/com.antelope.ci.bus.test/bin/felix.jar</systemPath>
+			<!--
+			<systemPath>/data/software/eclipse/workspace/@Antelope.CI/com.antelope.ci.bus/com.antelope.ci.bus.test/bin/felix.jar</systemPath>
+			-->
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+		</dependency>
+	</dependencies>
+</project>
